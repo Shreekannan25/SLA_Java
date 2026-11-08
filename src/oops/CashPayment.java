@@ -1,5 +1,7 @@
 package oops;
 
-public class CashPayment {
-
+public class CashPayment extends Payment {
+    void pay() {
+        System.out.println("Payment through Cash");
+    }
 }
